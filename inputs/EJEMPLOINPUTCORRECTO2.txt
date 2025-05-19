@@ -1,0 +1,6 @@
+if (0) {
+    printf("no entra aca");
+} else {
+    printf("va por el else");
+    printf("sigue imprimiendo");
+}
