@@ -50,9 +50,9 @@ Estas instrucciones se pueden ejecutar en cualquiera de los siguientes entornos 
 
 3. Y por ultimo abrimos el visual studio para trabajar con el comando:
 
-    code . (<---- el punto es importante sin el nos abriba visual studio normalmente)
+    code . (<---- no olvidar el punto, es importante sin el nos abriba visual studio normalmente)
 
-![image](https://github.com/user-attachments/assets/40b5439b-9087-4492-ae48-5ba85b56ed58) (ejemplo en GITBASH, imporante el uso del punto a la hora de ejecutar "code .")
+![image](https://github.com/user-attachments/assets/40b5439b-9087-4492-ae48-5ba85b56ed58) (ejemplo en GITBASH)
 
 En caso de no seleccionar una carpeta nueva y clonar el repositorio dentro de la misma como en el ejemplo, normalmente el proyecto se encontrara dentro de la carpeta "C:\Users\(usuario en cuestión)" del usuario que lo este ejecutando.
 
