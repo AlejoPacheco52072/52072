@@ -58,7 +58,7 @@ En caso de no seleccionar una carpeta nueva y clonar el repositorio dentro de la
 
 EJ: 
 
-![image](https://github.com/user-attachments/assets/8b5e164f-fd41-46a3-ae41-c5cd52802d82) (ejemplo en CMD)
+![image](https://github.com/user-attachments/assets/d8f76d9b-cb9c-441b-ba65-2f860412af51)
 
 si bien es "distinto" el proceso es el mismo
 
