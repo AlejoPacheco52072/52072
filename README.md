@@ -20,12 +20,15 @@ El sistema valida la sintaxis, genera una tabla de tokens, construye y muestra e
 - Gramática escrita en ANTLR4 con tokens específicos para palabras reservadas y símbolos.
 
 - No soporta variables, expresiones aritméticas ni estructuras complejas.
-- 
+
 # Requisitos
 
 1. Node.js (v16+) desde la página oficial https://nodejs.org/es
+   
 2. Java Runtime (JRE) para ANTLR4, la version utilizada para el desarrolo de este proyecto es "java version "24.0.1" 2025-04-15" (recomendada para su ejecuccion)
+   
 3. Descargar Visual Studio Code https://code.visualstudio.com/
+   
 4. Descargar e instalar Git desde la página oficial https://git-scm.com/downloads
    
 ## Configuración Inicial
