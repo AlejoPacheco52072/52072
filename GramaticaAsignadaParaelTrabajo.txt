@@ -1,0 +1,113 @@
+Gramatica asignada en ANSI-C:
+programa: instrucciones;
+instrucciones:
+    instrucción
+    | instrucciones instrucción
+    ;
+
+instrucción: decision;
+
+decision:
+    "if" "(" condicion ")" "{" sentencia "}" ( "else" "{" sentencia "}" )?
+    ;
+
+sentencia:
+    salida
+    | salida sentencia
+    | terminar
+    ;
+
+salida:
+    "printf" "(" cadena ")" ";"
+    ;
+
+terminar:
+    "return" ";"
+    ;
+
+condicion:
+    "0"
+    | "1"
+    ;
+
+cadena:
+    "\"" caracteres "\""
+    ;
+
+caracteres:
+    carácter
+    | caracteres carácter
+    ;
+
+carácter:
+    letra
+    | dígito
+    | símbolo
+    ;
+
+letra:
+    "a" ... "z"
+    | "A" ... "Z"
+    ;
+
+dígito:
+    "0" ... "9"
+    ;
+
+símbolo:
+    "," | "." | "!" | "?" | ":" | ";" | " "
+    ;
+
+Gramatica en ANTLR (.g4):
+
+programa
+    : instrucciones EOF
+    ;
+
+instrucciones
+    : instruccion+
+    ;
+
+instruccion
+    : decision
+    ;
+
+decision
+    : IF LPAREN condicion RPAREN LBRACE sentencia RBRACE (ELSE LBRACE sentencia RBRACE)?
+    ;
+
+sentencia
+    : salida+
+    | terminar
+    ;
+
+salida
+    : PRINTF LPAREN STRING RPAREN SEMI
+    ;
+
+terminar
+    : RETURN SEMI
+    ;
+
+condicion
+    : NUM
+    ;
+
+// === LÉXICO ===
+
+IF      : 'if';
+ELSE    : 'else';
+PRINTF  : 'printf';
+RETURN  : 'return';
+
+LPAREN  : '(';
+RPAREN  : ')';
+LBRACE  : '{';
+RBRACE  : '}';
+SEMI    : ';';
+
+NUM     : '0' | '1';
+
+STRING  : '"' (~["\r\n])* '"';
+
+WS      : [ \t\r\n]+ -> skip;

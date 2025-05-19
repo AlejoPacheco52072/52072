@@ -1,0 +1,7 @@
+if (2) {
+    printf("Hola");
+} else {
+    return;
+}
+// Error: el valor '2' no está permitido como condición.
+// Solo se aceptan '0' o '1' según la regla `condicion : NUM` y `NUM : '0' | '1'`.

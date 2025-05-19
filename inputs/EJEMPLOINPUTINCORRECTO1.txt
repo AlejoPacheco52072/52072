@@ -1,0 +1,7 @@
+if (1) {
+    printf("Hola");
+} else {
+    int x = 5;
+}
+// La declaración de variable no está permitida.
+// La gramática no reconoce ningún tipo de declaración como `int x = 5;`
