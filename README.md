@@ -38,5 +38,10 @@ Estas instrucciones se pueden ejecutar en cualquiera de los siguientes entornos 
 - **Terminal integrada de Visual Studio Code**
 
 ### Pasos
-- Primero clonamo el repositorio:
-  
+1. Primero clonamo el repositorio:
+   
+  git clone https://github.com/AlejoPacheco52072/52072
+
+3. Después nos dirigimos al directorio del proyecto:
+
+   cd ssl-antlr-52072
