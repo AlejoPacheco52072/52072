@@ -1,10 +1,10 @@
-Tarea construcción ANALIZADOR con ANTLR4 y JavaScript (Tema 39568_9)
+# Tarea construcción ANALIZADOR con ANTLR4 y JavaScript (Tema 39568_9)
 
 Este proyecto implementa un analizador léxico y sintáctico para un subconjunto reducido del lenguaje de programación C. Utilizando ANTLR4 y Node.js, permite procesar programas escritos con sentencias if, printf y return con condiciones muy simples (0 o 1).
 
 El sistema valida la sintaxis, genera una tabla de tokens, construye y muestra el árbol de análisis sintáctico, y finalmente traduce el código fuente a JavaScript para interpretarlo y ejecutar su lógica.
 
-Caracteristicas de la Gramática
+## Caracteristicas de la Gramática
 
 . Soporta sentencias if con condiciones simples (0 o 1).
 
