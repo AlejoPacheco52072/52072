@@ -113,7 +113,7 @@ mostrandonos el error al final
 
   ---
 
-## Conmentarios Finales
+## Comentarios Finales
 
 Este proyecto fue desarrollado para la materia de Sintaxis y Semántica de los Lenguajes por el alumno Alejo Pacheco (legajo 52072)
 
